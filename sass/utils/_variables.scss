@@ -1,0 +1,155 @@
+$brand__color: #2196f3;
+
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.eot');
+	src: local('☺'), url('../fonts/Roboto-Medium.woff') format('woff'), url('../fonts/Roboto-Medium.ttf') format('truetype'), url('../fonts/Roboto-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../fonts/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'icons';
+    src:  url('../fonts/popupFonts/icons.eot?shbivy');
+    src:  url('../fonts/popupFonts/icons.eot?shbivy#iefix') format('embedded-opentype'),
+      url('../fonts/popupFonts/icons.ttf?shbivy') format('truetype'),
+      url('../fonts/popupFonts/icons.woff?shbivy') format('woff'),
+      url('../fonts/popupFonts/icons.svg?shbivy#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-close:before {
+    content: "\e700";
+  }
+  .icon-check:before {
+    content: "\e800";
+  }
+  .icon-check1:before {
+    content: "\e701";
+    color: #fff;
+  }
+  .icon-email-black:before {
+    content: "\e802";
+  }
+  .icon-icon-send:before {
+    content: "\e703";
+    color: #fff;
+  }
+  .icon-person-black:before {
+    content: "\e808";
+  }
+  .icon-phone-black:before {
+    content: "\e804";
+  }
+  
+
+  @font-face {
+    font-family: 'icons';
+    src:  url('../fonts/icons.eot?n5zw37');
+    src:  url('../fonts/icons.eot?n5zw37#iefix') format('embedded-opentype'),
+      url('../fonts/icons.ttf?n5zw37') format('truetype'),
+      url('../fonts/icons.woff?n5zw37') format('woff'),
+      url('../fonts/icons.svg?n5zw37#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"]::before, [class*=" icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\e908";
+    color: #fff;
+  }
+  .icon-instagram:before {
+    content: "\e909";
+    color: #fff;
+  }
+  .icon-linkedin:before {
+    content: "\e90a";
+    color: #fff;
+  }
+  .icon-twitter:before {
+    content: "\e90b";
+    color: #fff;
+  }
+  .icon-facebook2:before {
+    content: "\e90c";
+    /* color: #afb1b8; */
+  }
+  .icon-instagram2:before {
+    content: "\e90d";
+    /* color: #afb1b8; */
+  }
+  .icon-linkedin2:before {
+    content: "\e90e";
+    /* color: #afb1b8; */
+  }
+  .icon-twitter2:before {
+    content: "\e90f";
+    /* color: #afb1b8; */
+  }
+  .icon-Client-1:before {
+    content: "\e900";
+  }
+  .icon-Client-2:before {
+    content: "\e901";
+  }
+  .icon-Client-3:before {
+    content: "\e902";
+  }
+  .icon-Client-4:before {
+    content: "\e903";
+  }
+  .icon-Client-5:before {
+    content: "\e904";
+  }
+  .icon-Client-6:before {
+    content: "\e905";
+  }
+  .icon-envelope:before {
+    content: "\e906";
+  }
+  .icon-smartphone:before {
+    content: "\e907";
+  }
+  

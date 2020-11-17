@@ -1,0 +1,30 @@
+@import "./utils/variables";
+@import "./components/null";
+@import "./components/header";
+@import "./components/main-page";
+@import "./components/footer";
+@import "./components/popup";
+@import "./components/portfolio";
+@import "./utils/fonts";
+@import "./utils/popupFonts";
+@import "./utils/stylefonts";
+
+
+body {font-family: "Roboto", sans-serif;}
+
+  /* container */
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+  
+  
+  
+  
+  
