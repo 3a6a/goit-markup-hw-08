@@ -44,7 +44,7 @@
     
           <!-- Contacts -->
     
-          <div class="header__contacts">
+          
             <ul class="contacts__list">
               <li class="contacts__link">
                 <a href="mailto:info@devstudio.com"><span class="icon-envelope"></span> info@devstudio.com</a>
@@ -53,10 +53,40 @@
                 <a href="tel:+380961111111"><span class="icon-smartphone"></span> +38 096 111 11 11</a>
               </li>
             </ul>
-          </div>
+
+          <a href="#" class="menu__btn">
+      <span class="menu__btn--img icon-menu"></span>
+      <span class="menu__btn--img icon-close"></span>
+          </a>
+          
         </div>
       </div>
       </header>
+
+      <div class="container">
+      <div class="mobile__menu">
+          <ul class="nav__list--mobile">
+            <li class="nav__link nav__link-studio nav__link--mobile">
+              <a href="#./index.html">Студия</a>
+            </li>
+            <li class="nav__link nav__link--mobile">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__link nav__link--mobile">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul class="contacts__list--mobile">
+            <li class="contacts__link--mobile">
+              <a href="mailto:info@devstudio.com"><span class="icon-envelope"></span> info@devstudio.com</a>
+            </li>
+            <li class="contacts__link--mobile">
+              <a href="tel:+380961111111"><span class="icon-smartphone"></span> +38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
       
 
     <!-- /Header -->
@@ -66,7 +96,7 @@
     <main class="main">
       <!-- main__section  -->
 
-      <section class="main__section">
+      <section class="main__section menu__section--hiden">
         <h1 class="main__section--title">
           Эффективные решения для вашего бизнеса
         </h1>
@@ -375,6 +405,9 @@
 </div>
 
 <!-- /popup -->
+<script src="./js/main.js"></script>
 <script src="./js/modal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </body>
 </html>

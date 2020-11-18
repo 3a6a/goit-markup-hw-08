@@ -183,3 +183,33 @@
   
   
   /* /footer */
+
+  @media (max-width: 768px) {
+.footer {
+  max-height: 463px;
+  height: 100%;
+}
+
+.email__box {
+  float: none;
+  padding: 60px 0 0 0;
+  margin: 0;
+
+} 
+
+.email__title {
+  text-align: center;
+}
+.email__form {
+  text-align: center;
+}
+  .email__btn, .email__input {
+    display: block;
+    
+    margin: 0 auto;
+  }
+
+.email__input {
+  margin-bottom: 20px;
+} 
+}

@@ -129,7 +129,98 @@
     display: inline-block;
     
     margin-right: 10px;
+    
   }
   
+
+
+  @media (max-width: 480px) {
+    .header__container {
+      height: 60px;
+       }
+
+    .header { border-bottom: 1px solid #ECECEC;}
+    .header__nav {
+      display: none;
+    }
+    .contacts__link {
+      display: none;
+    }
+    .menu__btn {
+      width: 40px;
+      height: 40px;
+      padding: 12px 8px;
+      display: block;
+    }
   
-  /* /nav */
+  }
+
+  @media (max-width: 768px) {
+  
+
+    .nav {
+      max-width: 77%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 84px;
+    }
+
+    .nav__link {
+      
+      
+    }
+ 
+    .logo {
+      font-size: 24px;
+    }
+    .contacts__list {
+      max-width: 23%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+    .nav__list {
+      max-width: 300px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .contacts__link {
+      margin-bottom: 10px;
+      margin-right: 0;
+  
+      &:last-child {
+          margin-bottom: 0;
+        }
+    }
+
+ 
+
+    .footer__contscts {
+      text-align: center;
+      padding-left: 70px;
+    }
+    .footer__logo {
+      
+      padding-left: 40px;
+    }
+
+    .footer__social {
+      margin-left: 135px;
+    }
+
+    .footer__social-join {
+      display: block;
+      text-align: center;
+      
+    }
+
+    .email__box {
+      clear: both;
+      padding: 0;
+      margin: 0;
+    }
+  }
