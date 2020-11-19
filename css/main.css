@@ -914,10 +914,16 @@ h6 {
     margin-bottom: 30px;
   }
   .icon__customers {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
     max-width: 226px;
     width: 100%;
     max-height: 90px;
     height: 100%;
+    padding-left: 30px;
   }
 }
 
@@ -1025,6 +1031,11 @@ h6 {
   }
   .customers__item:nth-child(4n+1) {
     margin-bottom: 0px;
+  }
+  .icon__customers {
+    display: block;
+    font-size: 80px;
+    padding-left: 30px;
   }
 }
 
@@ -1169,6 +1180,7 @@ h6 {
 }
 
 .email__box {
+  width: 50%;
   padding-top: 10px;
   float: left;
   margin-left: 93px;
@@ -1185,6 +1197,7 @@ h6 {
 }
 
 .email__input {
+  display: inline-block;
   background: #2F303A;
   padding-left: 16px;
   font-size: 16px;
@@ -1206,6 +1219,7 @@ h6 {
 }
 
 .email__btn {
+  display: inline-block;
   position: relative;
   max-width: 200px;
   width: 100%;
@@ -1266,7 +1280,7 @@ h6 {
     text-align: center;
   }
   .email__box {
-    position: static;
+    width: 100%;
     float: none;
     display: block;
     margin: 0 auto;
@@ -1281,6 +1295,8 @@ h6 {
     height: auto;
   }
   .email__box {
+    width: 100%;
+    display: block;
     float: none;
     padding: 60px 0 0 0;
     margin: 0;

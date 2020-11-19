@@ -120,6 +120,7 @@
   }
   
   .email__box {
+    width: 50%;
     padding-top: 10px;
     float: left;
     margin-left: 93px;
@@ -139,6 +140,7 @@
    }
   
   .email__input {
+    display: inline-block;
     background: #2F303A;
     padding-left: 16px;
     font-size: 16px;
@@ -158,6 +160,7 @@
   
 
   .email__btn { 
+    display: inline-block;
    position: relative;
     max-width: 200px;
     width: 100%;
@@ -226,7 +229,8 @@
     }
   
     .email__box {
-      position: static;
+      width: 100%;
+      
       float: none;
       display: block;
       margin: 0 auto;
@@ -242,6 +246,8 @@
 }
 
 .email__box {
+  width: 100%;
+  display: block;
   float: none;
   padding: 60px 0 0 0;
   margin: 0;
