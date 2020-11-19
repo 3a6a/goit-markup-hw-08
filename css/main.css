@@ -943,6 +943,7 @@ h6 {
     height: 1000px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 120px;
   }
   .directions--item {
     display: block;
@@ -964,14 +965,74 @@ h6 {
     text-align: center;
   }
   .our__team {
-    margin-top: 120px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .team__item {
+    max-width: 450px;
+    width: 100%;
+    max-height: 622px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .team__item--img {
+    max-width: 450px;
+    max-height: 460px;
+    width: 100%;
+    height: 100%;
+  }
+  .our__team--title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .team__social {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon__team--inner {
+    margin-right: 10px;
+  }
+  :last-child {
+    margin-right: 0;
+  }
+  .regular__customers {
+    padding: 60px 0;
+  }
+  .regular__customers-title {
+    font-size: 28px;
+  }
+  .regular__customers-items {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .customers__item {
+    max-width: 210px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .customers__item:nth-child(4n+1) {
+    margin-bottom: 0px;
   }
 }
 
 /* footer */
 .footer {
-  padding-top: 60px;
-  height: 252px;
+  padding: 60px 0;
+  max-height: 252px;
+  height: 100%;
   background: #2f303a;
 }
 
@@ -1127,7 +1188,8 @@ h6 {
   background: #2F303A;
   padding-left: 16px;
   font-size: 16px;
-  width: 358px;
+  max-width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
@@ -1145,7 +1207,8 @@ h6 {
 
 .email__btn {
   position: relative;
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 50px;
   background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1172,10 +1235,50 @@ h6 {
 }
 
 /* /footer */
+@media (max-width: 480px) {
+  .footer {
+    max-width: 480px;
+    height: 603px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer__logo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .footer__contscts {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+  .footer__social {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__social-join {
+    text-align: center;
+  }
+  .email__box {
+    position: static;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
-    max-height: 463px;
-    height: 100%;
+    max-height: 603px;
+    height: auto;
   }
   .email__box {
     float: none;
