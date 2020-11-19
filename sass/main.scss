@@ -22,19 +22,17 @@ body {font-family: "Roboto", sans-serif;}
   
 }
 
-@media (max-width: 480px) {
-  .container {
-  max-width: 480px;
-  width: 100%;
-  }
-}
+// @media (min-width: 480px) {
+//   .container {
+//   width: 480px;
+//   }
+// }
 
-@media (max-width: 768px) {
-  container {
-    max-width: 768px ;
-    width: 100%;
-  }
-}
+// @media (min-width: 768px) {
+//   container {
+//     width: 768px ;
+//   }
+// }
 
 
 

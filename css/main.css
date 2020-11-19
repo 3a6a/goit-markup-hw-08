@@ -165,8 +165,8 @@
 
 @font-face {
   font-family: 'icons';
-  src: url("../../fonts/menuFonts/");
-  src: url("../../fonts/menuFonts/icons.eot?ltlak3#iefix") format("embedded-opentype"), url("../../fonts/menuFonts/icons.ttf?ltlak3") format("truetype"), url("../../fonts/menuFonts/icons.woff?ltlak3") format("woff"), url("../../fonts/menuFonts/icons.svg?ltlak3#icons") format("svg");
+  src: url("../fonts/menuFonts/");
+  src: url("../fonts/menuFonts/icons.eot?ltlak3#iefix") format("embedded-opentype"), url("../fonts/menuFonts/icons.ttf?ltlak3") format("truetype"), url("../fonts/menuFonts/icons.woff?ltlak3") format("woff"), url("../fonts/menuFonts/icons.svg?ltlak3#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1871,19 +1871,5 @@ body {
   font-family: "Roboto", sans-serif;
   max-width: 1200px;
   width: 100%;
-}
-
-@media (max-width: 480px) {
-  .container {
-    max-width: 480px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  container {
-    max-width: 768px;
-    width: 100%;
-  }
 }
 /*# sourceMappingURL=main.css.map */
