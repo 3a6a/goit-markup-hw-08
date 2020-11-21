@@ -7,38 +7,24 @@
 @import "./components/portfolio";
 @import "./components/burger-menu";
 
-body {font-family: "Roboto", sans-serif;}
 
   /* container */
 
-.container {
-  
+.container { 
     margin: 0 auto;
     padding: 0 15px;
     font-family: "Roboto", sans-serif;
-    max-width: 1200px;
-    width: 100%;
+    color: #212121;
 
-  
+    @media (min-width: 480px) {
+      width: 480px;
+    }
+
+    @media (min-width: 768px) {
+      width: 768px;
+    }
+
+    @media (min-width: 1200px) {
+      width: 1200px;
+    }
 }
-
-// @media (min-width: 480px) {
-//   .container {
-//   width: 480px;
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   container {
-//     width: 768px ;
-//   }
-// }
-
-
-
-
-  
-  
-  
-  
-  

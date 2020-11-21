@@ -96,14 +96,16 @@
     <main class="main">
       <!-- main__section  -->
 
-      <section class="main__section menu__section--hiden">
-        <h1 class="main__section--title">
-          Эффективные решения для вашего бизнеса
-        </h1>
-        <button data-modal-open class="main__section--btn ">
-          Заказать услугу
-        </button>
-      </section>
+      
+        <section class="main__section menu__section--hiden">
+          <h1 class="main__section--title">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <button data-modal-open class="main__section--btn ">
+            Заказать услугу
+          </button>
+        </section>
+      
 
       <!--  main__section -->
 
@@ -111,9 +113,11 @@
 
       <section class="directions">
         <div class="container">
-          <ul class="directions">
+          <ul class="directions__items">
             <li class="directions--item">
-              <img class="direction__img" src="./img/group/Group 1.jpg" alt="#">
+              <div class="direction__img--block">
+                <img class="direction__img" src="./img/mobile/antenna 1.svg" alt="#">
+              </div>
               <h3 class="direction__title">Внимание к деталям</h3>
               <p class="direction__text">
                 Идейные соображения, а также начало повседневной работы по
@@ -121,7 +125,9 @@
               </p>
             </li>
             <li class="directions--item">
-              <img class="direction__img" src="./img/group/Group 2.jpg" alt="#">
+              <div class="direction__img--block">
+                <img class="direction__img" src="./img/mobile/clock 1.svg" alt="#">
+              </div>
               <h3 class="direction__title">Пунктуальность</h3>
               <p class="direction__text">
                 Задача организации, в особенности же рамки и место обучения
@@ -129,7 +135,9 @@
               </p>
             </li>
             <li class="directions--item">
-              <img class="direction__img" src="./img/group/Group 3.jpg" alt="#">
+              <div class="direction__img--block">
+                <img class="direction__img" src="./img/mobile/diagram 1.svg" alt="#">
+              </div>
               <h3 class="direction__title">Планирование</h3>
               <p class="direction__text">
                 Равным образом консультация с широким активом в значительной
@@ -137,7 +145,9 @@
               </p>
             </li>
             <li class="directions--item">
-              <img class="direction__img" src="./img/group/Group 4.jpg" alt="#">
+              <div class="direction__img--block">
+                <img class="direction__img" src="./img/mobile/astronaut 1.svg" alt="#">
+              </div>
               <h3 class="direction__title">Современные технологии</h3>
               <p class="direction__text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -307,7 +317,7 @@
     
       <section class="regular__customers">
         <div class="container">
-          <h2 class="regular__customers-title section__title">Постоянные клиенты</h2>
+          <h2 class="regular__customers-title">Постоянные клиенты</h2>
           <ul class="regular__customers-items">
             <li class="customers__item"><a href="#" class="icon__customers icon-Client-1"></a></li>
             <li class="customers__item"><a href="#" class="icon__customers icon-Client-2"></a></li>
@@ -368,7 +378,7 @@
 <div data-modal class="popup  is-hidden" id="popup">
   <div class="popup__body">
     <div class="popup__content">
-      <button data-modal-close class="popup__close "><span class="close__btn "><span class="icon-close"></span></span></button>
+      <button data-modal-close class="popup__close "><span class="close__btn "><span class="icon-close1"></span></span></button>
         <h3 class="popup__title">Оставьте свои данные, мы вам перезвоним</h3>
        <form class="popup__inputs" action="#">
          <label class="popup__input">

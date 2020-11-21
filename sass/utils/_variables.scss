@@ -186,4 +186,36 @@ $brand__color: #2196f3;
   .icon-menu:before {
     content: "\e101";
   }
+
+
+  @font-face {
+    font-family: 'icons';
+    src:  url('../fonts/close1/');
+    src:  url('../fonts/close1/icons.eot?cv05yn#iefix') format('embedded-opentype'),
+      url('../fonts/close1/icons.ttf?cv05yn') format('truetype'),
+      url('../fonts/close1/icons.woff?cv05yn') format('woff'),
+      url('../fonts/close1/icons.svg?cv05yn#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-close1:before {
+    content: "\e102";
+  }
   
