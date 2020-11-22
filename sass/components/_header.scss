@@ -198,12 +198,6 @@
       
             /* nav */
         
-        .nav {
-          
-          width: 50%;
-          display: flex;
-          justify-content: space-between;
-        }
       
         .nav__link {
           cursor: pointer;
@@ -330,7 +324,6 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      
     }
 
     .nav__list {
@@ -352,4 +345,27 @@
     
   }
 
-  
+  @media (min-width: 1200px) {
+ 
+    .header__container {
+      max-width: 1200px;
+      width: 100%;
+    }
+
+        .nav {
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .contacts__list {
+          max-width: 350px;
+          width: 100%;
+          
+          flex-wrap: nowrap;
+        }
+
+        .contacts__link:first-child {
+          margin-right: 30px;
+        }
+  }

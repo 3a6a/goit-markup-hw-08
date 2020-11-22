@@ -309,3 +309,29 @@
             }
 
           }
+
+          @media (min-width: 1200px) {
+
+            .main__nav--list {
+              margin-bottom: 34px;
+            }
+
+            .cards {
+              max-width: 1170px;
+            }
+
+            .cards__item {
+              max-width: 370px;
+
+              &:nth-child(3n+3) {
+                margin-right: 0;
+              }
+
+              margin-right: 30px;
+
+            .card__overlay {
+              max-width: 370px;
+            }
+              
+          }
+        }

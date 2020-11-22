@@ -243,3 +243,22 @@
   
   
    /* /popup */
+
+
+   @media (min-width: 1200px) {
+    .popup__content {
+      max-width: 528px;
+      max-height: 581px;
+     }
+
+     .popup__inputs {
+      max-width: 448px;
+     
+     }
+     .input__area {
+      max-width: 448px;
+     }
+     .input {
+       max-width: 448px;
+     }
+   }
