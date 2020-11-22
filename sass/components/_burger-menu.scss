@@ -198,6 +198,10 @@ margin-bottom: 60px;
     .nav__link-studio::before {
       top: 28px;
       }
+
+      @media (min-width: 768px) {
+        .menu__btn {display: none;}
+      }
     
     
   

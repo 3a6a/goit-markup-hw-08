@@ -136,6 +136,7 @@
   //         }
 
   .portfolio__section {
+    
     margin: 0 auto;
     padding: 60px 0;
     }
@@ -205,7 +206,7 @@
   color: #FFFFFF;
     width: 100%;
     max-width: 450px;
-  max-height: 294px;
+  max-height: 404px;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);;
   opacity: 0;
@@ -268,4 +269,43 @@
             position: absolute;
             top: 0px;
             left: 0;
+          }
+
+
+
+          @media (min-width: 768px) {
+
+            // !nav_list
+
+            .main__nav--list {
+              margin: 0 auto;
+              max-width: 611px;
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+            }
+
+            // !cards
+
+            .cards {
+              max-width: 768px;
+             flex-direction: row;
+             justify-content: flex-start;
+             align-items: flex-start;
+            }
+
+            .cards__item {
+              max-width: 354px;
+              &:nth-child(odd) {
+                margin-right: 30px;
+              }
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
+
+            .card__overlay {
+              max-width: 354px;
+            }
+
           }
