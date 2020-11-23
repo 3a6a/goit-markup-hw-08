@@ -959,6 +959,10 @@ h6 {
     max-height: 536px;
     height: 100%;
   }
+  .team__item--img {
+    max-width: 354px;
+    max-height: 374px;
+  }
   .regular__customers-items {
     margin: 0 auto;
     max-width: 738px;
@@ -1088,6 +1092,10 @@ h6 {
     width: 100%;
     max-height: 428px;
     height: 100%;
+  }
+  .team__item--img {
+    max-width: 270px;
+    max-height: 260px;
   }
   .regular__customers {
     padding: 94px 0;
@@ -1919,6 +1927,9 @@ h6 {
   .card__overlay {
     max-width: 354px;
   }
+  .card__img {
+    max-width: 354px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1936,6 +1947,9 @@ h6 {
     margin-right: 0;
   }
   .cards__item .card__overlay {
+    max-width: 370px;
+  }
+  .card__img {
     max-width: 370px;
   }
 }

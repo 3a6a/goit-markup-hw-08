@@ -172,6 +172,12 @@
               max-width: 354px;
             }
 
+            .card__img {
+              max-width: 354px;
+            }
+
+            
+
           }
 
           @media (min-width: 1200px) {
@@ -198,4 +204,10 @@
             }
               
           }
+
+          .card__img {
+            max-width: 370px;
+          }
+          
+
         }

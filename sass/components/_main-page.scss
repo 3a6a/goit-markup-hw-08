@@ -394,6 +394,11 @@ flex-wrap: wrap;
         height: 100%;
 }
 
+.team__item--img {
+  max-width: 354px;
+  max-height: 374px;
+}
+
 
 // !regular customers
 
@@ -541,6 +546,11 @@ flex-wrap: nowrap;
         width: 100%;
         max-height: 428px;
         height: 100%;
+}
+
+.team__item--img {
+  max-width: 270px;
+  max-height: 260px;
 }
   
 // !regular customers
