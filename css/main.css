@@ -560,10 +560,10 @@ h6 {
   width: 100%;
   max-height: 400px;
   height: 100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/bg.jpg");
-  background-image: -webkit-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
-  background-image: -o-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/mobile/Header img.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/Header img.jpg");
+  background-image: -o-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/Header img.jpg");
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/Header img.jpg");
   -webkit-background-size: cover;
           background-size: cover;
 }
@@ -906,6 +906,12 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  .main__section {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/tablet/Header img (1).jpg");
+    background-image: -webkit-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/Header img (1).jpg");
+    background-image: -o-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/Header img (1).jpg");
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/Header img (1).jpg");
+  }
   .main__section--title {
     font-size: 26px;
     margin-bottom: 40px;
@@ -983,6 +989,12 @@ h6 {
 }
 
 @media (min-width: 1200px) {
+  .main__section {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/bg.jpg");
+    background-image: -webkit-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
+    background-image: -o-linear-gradient(bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/bg.jpg");
+  }
   .main__section {
     max-height: 600px;
     height: 100%;
