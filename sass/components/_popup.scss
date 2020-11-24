@@ -64,7 +64,9 @@
   margin-bottom: 12px;
   @media (max-width: 320px) {
     font-size: calc(18px + 2 * (100vw/1200));
-    
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
   }
    }
   .popup__text {
