@@ -1525,7 +1525,6 @@ h6 {
   .popup__title {
     font-size: -webkit-calc(18px + 2 * (100vw/1200));
     font-size: calc(18px + 2 * (100vw/1200));
-    max-width: 200px;
   }
 }
 
