@@ -22,6 +22,7 @@
         }
 
   .header { border-bottom: 1px solid #ECECEC;}
+ 
   .header__nav {
     display: none;
   }
@@ -35,6 +36,12 @@
   
 
   @media (min-width: 768px) {
+
+    .header {
+      border: none;
+    }
+
+    .header__portfolio { border-bottom: 1px solid #ECECEC;}
 
     .header__container {
           height: 80px;

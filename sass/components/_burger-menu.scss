@@ -201,6 +201,15 @@ margin-bottom: 60px;
 
       @media (min-width: 768px) {
         .menu__btn {display: none;}
+        .nav {
+          &__link-studio::before {
+          top: 48px;
+          }
+      
+          &__link-portfolio::before {
+              top: 48px;
+            }
+        }
       }
     
     
